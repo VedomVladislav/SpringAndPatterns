@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+
+       default-lazy-init="true"
+
+    >
+
+    <bean id="sonyHand" class="by.javavedom.training.spring.impls.sony.SonyHand"/>
+    <bean id="sonyHead" class="by.javavedom.training.spring.impls.sony.SonyHead" scope="prototype"/>
+    <bean id="sonyLeg" class="by.javavedom.training.spring.impls.sony.SonyLeg"/>
+
+</beans>

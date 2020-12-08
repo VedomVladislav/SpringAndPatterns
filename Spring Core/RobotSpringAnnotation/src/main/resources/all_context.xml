@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd"
+       default-lazy-init="true">
+
+    <context:annotation-config/> <!--Разрешаем аннотации-->
+    <context:component-scan base-package="by.javavedom.training.spring"/> <!--Переходим на аннотации, бины в xml комментим-->
+
+
+<!--    <import resource="toshiba_context.xml"/>
+    <import resource="sony_context.xml"/>
+
+    <bean id="t1000" class="by.javavedom.training.spring.impls.robot.ModelT1000" scope="prototype"/>
+
+    <bean id="t1000Pool" class="by.javavedom.training.spring.impls.pool.T1000Pool" scope="prototype"/>
+
+    <bean class="by.javavedom.training.spring.impls.robot.ModelT1000">
+        <property name="color" value="BLACK"/>
+        <property name="soundEnabled" value="false"/>
+        <property name="year" value="2008"/>
+        <qualifier type="by.javavedom.training.spring.qualifiers.RobotType">
+            <attribute key="color" value="BLACK"/>
+            <attribute key="sound" value="false"/>
+        </qualifier>
+    </bean>
+
+    <bean class="by.javavedom.training.spring.impls.robot.ModelT1000">
+        <property name="color" value="BLACK"/>
+        <property name="soundEnabled" value="true"/>
+        <property name="year" value="2005"/>
+        <qualifier type="by.javavedom.training.spring.qualifiers.RobotType">
+            <attribute key="color" value="BLACK"/>
+            <attribute key="sound" value="true"/>
+        </qualifier>
+    </bean>-->
+
+
+</beans>

@@ -1,0 +1,12 @@
+by\javavedom\training\spring\aop\CheckTransaction.class
+by\javavedom\training\spring\dao\impls\SQLiteDAO.class
+by\javavedom\training\spring\dao\impls\SQLiteDAO$1.class
+by\javavedom\training\spring\dao\objects\MP3.class
+by\javavedom\training\spring\main\Start.class
+by\javavedom\training\spring\exeptions\SQLiteExceptionsTranslator.class
+by\javavedom\training\spring\dao\impls\SQLiteDAO$MP3RowMapper.class
+by\javavedom\training\spring\dao\objects\Author.class
+by\javavedom\training\spring\aop\postprocessors\MyBeanPostProcessor.class
+by\javavedom\training\spring\dao\impls\SQLiteDAO$MP3Extractor.class
+by\javavedom\training\spring\dao\interfaces\MP3Dao.class
+by\javavedom\training\spring\exeptions\MyExeption.class

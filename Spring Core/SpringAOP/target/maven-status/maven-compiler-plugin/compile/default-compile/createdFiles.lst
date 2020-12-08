@@ -1,0 +1,10 @@
+by\javavedom\training\spring\aop\objects\FileManager.class
+by\javavedom\training\spring\aop\loggins\MyLogger.class
+by\javavedom\training\spring\aop\annotations\ShowResult.class
+by\javavedom\training\spring\aop\annotations\ShowTime.class
+by\javavedom\training\spring\aop\main\Runner.class
+by\javavedom\training\spring\aop\objects\SomeService.class
+by\javavedom\training\spring\aop\objects\FileManager2.class
+by\javavedom\training\spring\aop\postbeanprocessors\MyBeanPostProcessor.class
+by\javavedom\training\spring\aop\objects\CustomFileFilter.class
+by\javavedom\training\spring\aop\objects\Manager.class
